@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Battle - Round 1</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="loading">
+  <div class="loader" id="loader"></div>
+
+  <nav class="navbar">
+    <div class="brand">Carbon Tracker</div>
+    <ul class="nav-links">
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#carousel">Carousel</a></li>
+      <li><a href="#clients">Clients</a></li>
+    </ul>
+    <div class="theme-switch">
+      <label><input type="checkbox" id="theme-toggle"> Dark Mode</label>
+    </div>
+  </nav>
+
+  <header class="hero" id="dashboard">
+    <h1>Embodied Carbon Emissions</h1>
+    <p>Intensity measured by kgCO<sub>2</sub>e/m<sup>2</sup></p>
+    <a href="#features" class="btn">Explore Features</a>
+  </header>
+
+  <section class="features" id="features">
+    <h2>Features & Services</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Real-time Metrics</h3>
+        <p>Get accurate carbon emission data per material.</p>
+      </div>
+
+      <div class="feature-card">
+      <img src="assets/chart-icon.svg" alt="chart" class="card-icon" />
+      <h3>Visualization</h3>
+      <p>Visual graphs to compare project data.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Dark Mode</h3>
+        <p>Switch between light and dark themes.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Responsive UI</h3>
+        <p>Looks great on all screen sizes.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Carousel Showcase</h3>
+        <p>Swipe through key highlights effortlessly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Client Trusted</h3>
+        <p>Backed by leading sustainability clients.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="carousel-switch" id="carousel">
+    <h2>Project Highlights</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+        <img src="assets/performance1.png" alt="Performance" />
+        </div>
+        <div class="swiper-slide">
+        <img src="assets/performance2.png" alt="Performance" />
+        </div>
+        <div class="swiper-slide">
+        <img src="assets/performance3.jpeg" alt="Performance" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section class="clients" id="clients">
+    <h2>Our Clients</h2>
+    <div class="client-logos">
+      <div class="client-logos">
+      <img src="assets/cllient1.webp" class="client-logo" alt="Client 1" />
+      <img src="assets/client2.png" class="client-logo" alt="Client 2" />
+      ...
+      </div>
+
+      <img src="assets/client3.jpg" class="client-logo" alt="Client 3" />
+      <img src="assets/client4.jpg" class="client-logo" alt="Client 4" />
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Carbon Tracker. All rights reserved.</p>
+  </footer>
+</body>
+</html>
