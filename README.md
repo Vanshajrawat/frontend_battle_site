@@ -3,7 +3,7 @@
 This is my submission for **Frontend Battle Round 1: Replicate & Innovate**. The project replicates the reference design assets (videos + images) as functional website features, not just embedded media. It's fully responsive, themable, and interactive.
 
 ## 🚀 Live Demo
-[👉 Click to view deployed site](https://your-live-deployed-link.com)
+[👉 Click to view deployed site]()
 
 ## 🔧 Tech Stack
 - HTML5
@@ -64,3 +64,4 @@ Images were sourced from:
 ---
 
 ### 🔚 Thank you for evaluating! Built with 💙 and attention to detail.
+
